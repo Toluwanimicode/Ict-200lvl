@@ -6,7 +6,12 @@ function App() {
   return (
     <div>        
       <Navbar name='Tolu' />
-      <Hero />
+       <Hero
+            name="Doyin-Adenekan Toluwanimi"
+            title="Frontend Developer & UI Designer"
+            bio="I build beautiful, responsive web experiences that make users smile."
+          />
+
     </div>
   )
 }
