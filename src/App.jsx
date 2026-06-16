@@ -1,6 +1,7 @@
 import './App.css'
 import Navbar from './components/Navbar.jsx'
 import Hero from './components/Hero.jsx'
+import Skills from './components/Skills.jsx'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
             title="Frontend Developer & UI Designer"
             bio="I build beautiful, responsive web experiences that make users smile."
           />
+          <Skills />
 
     </div>
   )
